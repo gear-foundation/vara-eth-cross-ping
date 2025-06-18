@@ -1,0 +1,21 @@
+# === Rust (cross-ping) ===
+cross-ping/target/
+cross-ping/.binpath
+
+# === relayer ===
+relayer/node_modules/
+relayer/package-lock.json
+relayer/yarn.lock
+relayer/dist/
+relayer/.env
+
+# === ping-receiver ===
+ping-receiver/artifacts/
+ping-receiver/cache/
+ping-receiver/typechain-types/
+ping-receiver/node_modules/
+ping-receiver/yarn.lock
+ping-receiver/.env
+
+# === System files ===
+.DS_Store
