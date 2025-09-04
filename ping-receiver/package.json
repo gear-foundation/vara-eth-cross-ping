@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "npx hardhat run scripts/deploy.js --network holesky"
+    "deploy": "npx hardhat run scripts/deploy.js --network hoodi"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +17,6 @@
     "hardhat": "^2.24.3"
   },
   "dependencies": {
-    "dotenv": "^16.5.0"
+    "dotenv": "^17.2.1"
   }
 }
